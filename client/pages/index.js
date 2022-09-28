@@ -9,12 +9,12 @@ const serverUrl = 'http://localhost:3000/api/post/'
 export default function Home(props) {
   const styles = {
     container: 'p-2 h-screen',
-    main: 'flex flex-col bg-rose-40 border border-zinc-800 h-full',
+    main: 'flex flex-col border border-zinc-800 h-full',
     mainTop: ' basis-1/12 border-b border-zinc-800',
     mainBottom: 'basis-11/12',
-    postThoughtsCover: 'bg-rose-60 w-7/12 m-auto lg:w-9/12 md:w-10/12',
+    postThoughtsCover: 'w-7/12 m-auto lg:w-9/12 md:w-10/12',
     postThoughtsUpr: 'flex flex-col pt-20 items-end',
-    postThoughtsBtm: 'bg-emerald-40 mt-12 h-96 overflow-y-scroll overflow-x-hidden',
+    postThoughtsBtm: 'mt-12 h-96 overflow-y-scroll overflow-x-hidden',
     txtArea: 'p-2 text-xl w-full border border-zinc-800 text-zinc-700 resize-none md:text-lg',
     btn: 'bg-white border border-zinc-800 px-5 text-xl w-fit mt-4 md:text-lg',
   }
@@ -83,7 +83,7 @@ export default function Home(props) {
 
 const Message = ({prop}) => {
   const styles = {
-    msgCover: 'relative bg-emerald-20 my-5 border border-zinc-800 p-2 px-3 text-2xl text-zinc-700 h-24 md:text-lg sm:h-28 xs:h-36 cursor-pointer',
+    msgCover: 'relative my-5 border border-zinc-800 p-2 px-3 text-2xl text-zinc-700 h-24 md:text-lg sm:h-28 xs:h-36 cursor-pointer',
     msgTxt: 'text-zinc-600 break-normal',
     date_n_timeCover: 'absolute bottom-0 right-0 bg-white p-1 text-sm rounded-l-lg text-rose-500',
     dateTxt: 'text-xs font-bold'
