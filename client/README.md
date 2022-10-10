@@ -1,10 +1,6 @@
 # Readme.md
-## An issue !
-> You might have to hit command `npm run dev` again when navigating through page or when refreshed. I am still looking for a solution on why do I have to hit commnand again and will update this github repo once I find it.
 
-Everything is working just as was expected.
-
-I have also done the bonus challenge !
+Working just as was expected alongwith bonus challenge.
 ____
 
 ## Things I got to learn !
